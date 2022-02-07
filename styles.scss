@@ -1,0 +1,39 @@
+$font-stack: Helvetica, sans-serif;
+$black: #0F0F0F;
+$white: #F0F0F0;
+$dark-blue: #0138b7;
+$medium-blue: #6790ec;
+$light-blue: #c7d9f1;
+$grey: #e1e1e1;
+$lg-font: 72px;
+$med-font: 36px;
+$sm-font: 18px;
+
+.lg-font {
+  font-size: $lg-font;
+}
+
+.med-font {
+  font-size: $med-font;
+}
+
+.sm-font {
+  font-size: $sm-font;
+}
+
+.light {
+  color: $light-blue;
+}
+
+.medium {
+  color: $medium-blue;
+}
+
+.dark {
+  color: $dark-blue;
+}
+
+.title {
+  font-family: $font-stack;
+  font-size: $lg-font;
+}

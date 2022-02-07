@@ -1,0 +1,30 @@
+.lg-font {
+  font-size: 72px;
+}
+
+.med-font {
+  font-size: 36px;
+}
+
+.sm-font {
+  font-size: 18px;
+}
+
+.light {
+  color: #c7d9f1;
+}
+
+.medium {
+  color: #6790ec;
+}
+
+.dark {
+  color: #0138b7;
+}
+
+.title {
+  font-family: Helvetica, sans-serif;
+  font-size: 72px;
+}
+
+/*# sourceMappingURL=styles.css.map */

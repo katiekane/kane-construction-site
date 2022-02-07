@@ -24,3 +24,6 @@ Components:
     a. Copyright
     b. Social Links (Instagram)
 3. Image w/ Caption
+4. Bullet?
+    a. arrow + some text
+    b. arrow color (light, med, dark), text

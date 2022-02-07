@@ -1,0 +1,26 @@
+Kane Construction Site
+
+Pages:
+1. Home Page
+    a. Main Photo
+    b. Services Performed (List)
+    c. Reviews
+2. Contact Page
+    a. Mission Statement
+    b. Contact Info
+    c. Bio w/ Image
+3. Gallery Page
+    a. Portfolio images (List)
+
+Components:
+1. Header
+    a. Logo
+    b. Company Name (Font?)
+    c. Links
+        1. Home
+        2. Contact
+        3. Gallery
+2. Footer
+    a. Copyright
+    b. Social Links (Instagram)
+3. Image w/ Caption

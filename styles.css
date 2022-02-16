@@ -1,5 +1,5 @@
 .lg-font {
-  font-size: 72px;
+  font-size: 70px;
 }
 
 .med-font {
@@ -24,7 +24,52 @@
 
 .title {
   font-family: Helvetica, sans-serif;
-  font-size: 72px;
+  font-size: 70px;
+}
+
+.header-bar {
+  margin-left: 2px;
+}
+
+.header_link {
+  color: #6790ec;
+  font-size: 30px;
+}
+
+.active_header_link {
+  color: #0138b7;
+}
+
+.header_section {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  background-color: #2e2e2e;
+}
+
+.kane_con_text {
+  margin-top: 15px;
+  font-weight: lighter;
+  font-size: 54px;
+  color: #0138b7;
+}
+
+.kane_con_text_div {
+  width: 70%;
+  height: 100px;
+}
+
+.kane_construction_logo {
+  background-image: url("kane-construction-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 100px;
+}
+
+.kane_construction_logo_div {
+  width: 150px;
+  height: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */

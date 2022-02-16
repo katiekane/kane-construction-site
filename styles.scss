@@ -5,9 +5,14 @@ $dark-blue: #0138b7;
 $medium-blue: #6790ec;
 $light-blue: #c7d9f1;
 $grey: #e1e1e1;
-$lg-font: 72px;
+$background-header-color: #2e2e2e;
+$lg-font: 70px;
 $med-font: 36px;
 $sm-font: 18px;
+$header-height: 100px;
+$logo-height: 100px;
+$logo-width: 150px;
+
 
 .lg-font {
   font-size: $lg-font;
@@ -36,4 +41,53 @@ $sm-font: 18px;
 .title {
   font-family: $font-stack;
   font-size: $lg-font;
+}
+
+.header-bar{
+  margin-left: 2px;
+}
+
+.header_link {
+  color: $medium-blue;
+  font-size: 30px;
+}
+
+.active_header_link {
+  color: $dark-blue;
+}
+
+.header_section {
+  height: $header-height;
+  width: 100%;
+  display: flex;
+  background-color: $background-header-color;
+}
+
+.kane_con_text {
+  margin-top: 15px;
+  font-weight: lighter;
+  font-size: 54px;
+  color: $dark-blue;
+}
+
+.kane_con_text_div{
+  width: 70%;
+  height: $header-height;
+}
+
+.kane_construction_logo {
+  background-image: url("construction_logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: $logo-width;
+  height: $logo-height;
+}
+
+.kane_construction_logo_div {
+  width: $logo-width;
+  height: $logo-height;
+}
+
+.display_image {
+
 }

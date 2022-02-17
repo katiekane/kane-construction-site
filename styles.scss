@@ -48,12 +48,12 @@ $logo-width: 150px;
 }
 
 .header_link {
-  color: $medium-blue;
+  color: $grey;
   font-size: 30px;
 }
 
 .active_header_link {
-  color: $dark-blue;
+  color: $medium-blue;
 }
 
 .header_section {
@@ -67,7 +67,7 @@ $logo-width: 150px;
   margin-top: 15px;
   font-weight: lighter;
   font-size: 54px;
-  color: $dark-blue;
+  color: $grey;
 }
 
 .kane_con_text_div{
@@ -76,7 +76,7 @@ $logo-width: 150px;
 }
 
 .kane_construction_logo {
-  background-image: url("construction_logo.png");
+  background-image: url("kane-construction-logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: $logo-width;

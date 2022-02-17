@@ -32,12 +32,12 @@
 }
 
 .header_link {
-  color: #6790ec;
+  color: #e1e1e1;
   font-size: 30px;
 }
 
 .active_header_link {
-  color: #0138b7;
+  color: #6790ec;
 }
 
 .header_section {
@@ -51,7 +51,7 @@
   margin-top: 15px;
   font-weight: lighter;
   font-size: 54px;
-  color: #0138b7;
+  color: #e1e1e1;
 }
 
 .kane_con_text_div {

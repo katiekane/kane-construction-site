@@ -23,20 +23,23 @@
 }
 
 .title {
-  font-family: Helvetica, sans-serif;
+  font-family: Staatliches;
   font-size: 70px;
 }
 
 .header-bar {
-  margin-left: 2px;
+  margin-left: 8px;
 }
 
 .header_link {
+  font-family: Staatliches;
   color: #e1e1e1;
   font-size: 30px;
+  margin-right: 10px;
 }
 
 .active_header_link {
+  font-family: Staatliches;
   color: #6790ec;
 }
 
@@ -48,6 +51,7 @@
 }
 
 .kane_con_text {
+  font-family: Staatliches;
   margin-top: 15px;
   font-weight: lighter;
   font-size: 54px;
@@ -55,7 +59,7 @@
 }
 
 .kane_con_text_div {
-  width: 70%;
+  width: 60%;
   height: 100px;
 }
 

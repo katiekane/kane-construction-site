@@ -1,4 +1,4 @@
-$font-stack: Helvetica, sans-serif;
+$font-stack: Staatliches;
 $black: #0F0F0F;
 $white: #F0F0F0;
 $dark-blue: #0138b7;
@@ -44,15 +44,18 @@ $logo-width: 150px;
 }
 
 .header-bar{
-  margin-left: 2px;
+  margin-left: 8px;
 }
 
 .header_link {
+  font-family: $font-stack;
   color: $grey;
   font-size: 30px;
+  margin-right: 10px;
 }
 
 .active_header_link {
+  font-family: $font-stack;
   color: $medium-blue;
 }
 
@@ -64,6 +67,7 @@ $logo-width: 150px;
 }
 
 .kane_con_text {
+  font-family: $font-stack;
   margin-top: 15px;
   font-weight: lighter;
   font-size: 54px;
@@ -71,7 +75,7 @@ $logo-width: 150px;
 }
 
 .kane_con_text_div{
-  width: 70%;
+  width: 60%;
   height: $header-height;
 }
 

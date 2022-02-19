@@ -8,17 +8,17 @@ class HeaderBar extends HTMLElement{
         let activePage = this.getAttribute('activePage');
         console.log(activePage);
         this.innerHTML = `
-        <div class="header_section">
-           <div class="kane_construction_logo_div">
-                <IMG class="kane_construction_logo">
+        <div class="header-section">
+           <div class="kane-construction-logo-div">
+                <IMG class="kane-construction-logo">
            </div>
-           <div class="kane_con_text_div">
-                <h1 class="kane_con_text">Kane Construction</h1>
+           <div class="kane-con-text-div">
+                <h1 class="kane-con-text">Kane Construction</h1>
            </div>
            <div class="header-bar">
-                <a class="header_link ${activePage == 'Home' ? 'active_header_link' : ''}" href="index.html">Home</a>
-                <a class="header_link ${activePage == 'Contact' ? 'active_header_link' : ''}" href="contact.html">Contact</a>
-                <a class="header_link ${activePage == 'Gallery' ? 'active_header_link' : ''}" href="gallery.html">Gallery</a>
+                <a class="header-link ${activePage == 'Home' ? 'active-header-link' : ''}" href="index.html">Home</a>
+                <a class="header-link ${activePage == 'Contact' ? 'active-header-link' : ''}" href="contact.html">Contact</a>
+                <a class="header-link ${activePage == 'Gallery' ? 'active-header-link' : ''}" href="gallery.html">Gallery</a>
            </div>
         </div>
         `;

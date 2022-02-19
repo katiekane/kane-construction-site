@@ -5,8 +5,8 @@ $dark-blue: #0138b7;
 $medium-blue: #6790ec;
 $light-blue: #c7d9f1;
 $grey: #e1e1e1;
-$background-header-color: #2e2e2e;
-$lg-font: 70px;
+$dark-grey: #2e2e2e;
+$lg-font: 54px;
 $med-font: 36px;
 $sm-font: 18px;
 $header-height: 100px;
@@ -47,40 +47,40 @@ $logo-width: 150px;
   margin-left: 8px;
 }
 
-.header_link {
+.header-link {
   font-family: $font-stack;
   color: $grey;
   font-size: 30px;
   margin-right: 10px;
 }
 
-.active_header_link {
+.active-header-link {
   font-family: $font-stack;
   color: $medium-blue;
 }
 
-.header_section {
+.header-section {
   height: $header-height;
   width: 100%;
   display: flex;
-  background-color: $background-header-color;
+  background-color: $dark-grey;
 }
 
-.kane_con_text {
+.kane-con-text {
   margin-left: 10px;
   font-family: $font-stack;
   margin-top: 15px;
   font-weight: lighter;
-  font-size: 54px;
+  font-size: $lg-font;
   color: $grey;
 }
 
-.kane_con_text_div{
+.kane-con-text-div{
   width: 60%;
   height: $header-height;
 }
 
-.kane_construction_logo {
+.kane-construction-logo {
   background-image: url("kane-construction-logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -88,11 +88,34 @@ $logo-width: 150px;
   height: $logo-height;
 }
 
-.kane_construction_logo_div {
+.kane-construction-logo-div {
   width: $logo-width;
   height: $logo-height;
 }
 
-.display_image {
+.display-image {
 
+}
+
+.contact-title-div {
+  margin-top: 10px;
+  height: $header-height;
+}
+
+.contact-title {
+  text-align: center;
+  height: 75px;
+  font-family: $font-stack;
+  font-size: $lg-font;
+  color: $dark-grey;
+}
+
+.list-group{
+  padding: 0;
+  text-align: center;
+}
+
+.list-group-item{
+  font-family: $font-stack;
+  font-size: $med-font;
 }

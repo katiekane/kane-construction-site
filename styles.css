@@ -1,5 +1,5 @@
 .lg-font {
-  font-size: 70px;
+  font-size: 54px;
 }
 
 .med-font {
@@ -24,33 +24,33 @@
 
 .title {
   font-family: Staatliches;
-  font-size: 70px;
+  font-size: 54px;
 }
 
 .header-bar {
   margin-left: 8px;
 }
 
-.header_link {
+.header-link {
   font-family: Staatliches;
   color: #e1e1e1;
   font-size: 30px;
   margin-right: 10px;
 }
 
-.active_header_link {
+.active-header-link {
   font-family: Staatliches;
   color: #6790ec;
 }
 
-.header_section {
+.header-section {
   height: 100px;
   width: 100%;
   display: flex;
   background-color: #2e2e2e;
 }
 
-.kane_con_text {
+.kane-con-text {
   margin-left: 10px;
   font-family: Staatliches;
   margin-top: 15px;
@@ -59,12 +59,12 @@
   color: #e1e1e1;
 }
 
-.kane_con_text_div {
+.kane-con-text-div {
   width: 60%;
   height: 100px;
 }
 
-.kane_construction_logo {
+.kane-construction-logo {
   background-image: url("kane-construction-logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
@@ -72,9 +72,32 @@
   height: 100px;
 }
 
-.kane_construction_logo_div {
+.kane-construction-logo-div {
   width: 150px;
   height: 100px;
+}
+
+.contact-title-div {
+  margin-top: 10px;
+  height: 100px;
+}
+
+.contact-title {
+  text-align: center;
+  height: 75px;
+  font-family: Staatliches;
+  font-size: 54px;
+  color: #2e2e2e;
+}
+
+.list-group {
+  padding: 0;
+  text-align: center;
+}
+
+.list-group-item {
+  font-family: Staatliches;
+  font-size: 36px;
 }
 
 /*# sourceMappingURL=styles.css.map */

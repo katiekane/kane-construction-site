@@ -31,6 +31,10 @@
   margin-left: 8px;
 }
 
+.header-bg {
+  background-color: #2e2e2e;
+}
+
 .header-link {
   font-family: Staatliches;
   color: #e1e1e1;
@@ -107,11 +111,9 @@
 .expertise-items {
   font-family: Staatliches;
   font-size: 28px;
-  text-align: left;
-  margin-left: 100px;
-  padding-left: 25px;
-  padding-top: 15px;
   color: #2e2e2e;
+  margin-top: 8px;
+  margin-bottom: 0px;
 }
 
 .display-image {

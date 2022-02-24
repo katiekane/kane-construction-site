@@ -46,6 +46,10 @@ $logo-width: 150px;
   margin-left: 8px;
 }
 
+.header-bg {
+  background-color: $dark-grey;
+}
+
 .header-link {
   font-family: Staatliches;
   color: $grey;
@@ -122,11 +126,9 @@ $logo-width: 150px;
 .expertise-items {
   font-family: $font-stack;
   font-size: 28px;
-  text-align: left;
-  margin-left: 100px;
-  padding-left: 25px;
-  padding-top: 15px;
   color: $dark-grey;
+  margin-top: 8px;
+  margin-bottom: 0px;
 }
 
 .display-image {

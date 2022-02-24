@@ -3,35 +3,42 @@
 <head>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Island+Moments&family=Staatliches&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
     <title>Home</title>
     <script src="header-bar.js"></script>
+    <script src="kane-bullet.js"></script>
+    <script src="bootstrap-header.js"></script>
 </head>
 <body>
-    <header-bar activePage="Home"></header-bar
-    >
+<!--    <header-bar activePage="Home"></header-bar>-->
+<bootstrap-header activePage="Home"></bootstrap-header>
     <div class="display-image">*Display Photo*</div>
     <div>
         <h2 class="section-titles">Areas of Expertise</h2>
     </div>
-    <div class="column-section">
-        <div class="expertise-div">
-            <li class="expertise-items">New construction</li>
-            <li class="expertise-items">Roof replacement</li>
-            <li class="expertise-items">Decks</li>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4" style="display: flex; flex-direction: column; justify-content: center">
+            <kane-bullet text="New Construction"></kane-bullet>
+            <kane-bullet text="Roof Replacement"></kane-bullet>
+            <kane-bullet text="Decks"></kane-bullet>
         </div>
-        <div class="expertise-div">
-            <li class="expertise-items">Renovations</li>
-            <li class="expertise-items">Trim and Molding</li>
-            <li class="expertise-items">Light hardscaping</li>
-            <li class="expertise-items">Stairs</li>
+        <div class="col-lg-4" style="display: flex; flex-direction: column; justify-content: center">
+            <kane-bullet text="Renovations"></kane-bullet>
+            <kane-bullet text="Trim and Molding"></kane-bullet>
+            <kane-bullet text="Light Hardscaping"></kane-bullet>
+            <kane-bullet text="Stairs"></kane-bullet>
         </div>
-        <div class="expertise-div">
-            <li class="expertise-items">Rot Repair</li>
-            <li class="expertise-items">Window replacement</li>
-            <li class="expertise-items">Outdoor showers</li>
+        <div class="col-lg-4" style="display: flex; flex-direction: column; justify-content: center">
+<!--            image here! -->
+            <kane-bullet text="Rot Repair"></kane-bullet>
+            <kane-bullet text="Window Replacement"></kane-bullet>
+            <kane-bullet text="Outdoor Showers"></kane-bullet>
         </div>
     </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
